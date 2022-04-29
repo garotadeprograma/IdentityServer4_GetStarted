@@ -1,0 +1,18 @@
+Identity Server 4 e Visual Studio
+
+Identity Server 4 - Servidor de identidade criado para asp.net core
+
+Implementa duas interfaces:
+	
+	> OpenId
+	
+		Permite um cenario onde vários app podem ser acessados sem ter que logar várias vezes (Single Sign On - SSO)
+		
+		Ex. Conta google
+		
+	> OAuth 2.0
+		
+		Padrão para autorização. 
+		
+		Concede acesso à dados e recursos
+		
