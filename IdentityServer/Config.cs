@@ -25,6 +25,19 @@ namespace IdentityServer
 
         public static IEnumerable<Client> Clients =>
             new Client[] 
-            { };
+            { 
+                new Client 
+                {
+                    ClientId = "client",
+                    AllowedGrantTypes = GrantTypes.ClientCredentials,
+                    ClientSecrets =
+                    {
+                        new Secret("secret".Sha256())
+                    },
+                    //escopos aos quais o client terá acesso
+                    AllowedScopes = { "api1" }
+                }
+
+            };
     }
 }
