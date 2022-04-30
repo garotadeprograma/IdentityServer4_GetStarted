@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ggKViHsVDH4AsNotBYoTaGUXL4A0R/jsdtp4/w4N8BbFFFKN0m/gWfim0bboWxyixsyBkGKBMY7ZpNmtf7XVqQ==",
+  "dgSpecHash": "QxYiyKOlGWOMQ+d1GhScRSJc5xAO5hwTZzBO+iN9MvjlBA2/NkbmN6Pcyxyoko1bMsxkDzPPRZAqXZYU/yxhnA==",
   "success": true,
   "projectFilePath": "C:\\Projetos_Estudos\\Jornada C# - Gama\\Identity_Server\\Client\\Client.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\acsil\\.nuget\\packages\\identitymodel\\3.10.10\\identitymodel.3.10.10.nupkg.sha512",
+    "C:\\Users\\acsil\\.nuget\\packages\\newtonsoft.json\\11.0.1\\newtonsoft.json.11.0.1.nupkg.sha512",
+    "C:\\Users\\acsil\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
     "C:\\Users\\acsil\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
   ],
   "logs": []

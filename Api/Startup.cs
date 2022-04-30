@@ -28,8 +28,10 @@ namespace Api
         {
             services.AddControllers();
 
-            //JWT = Json Web Token
+            //Add o serviço de autenticação na injeção de dependência
+            //Configura o Bearer como esquema padrão
             services.AddAuthentication("Bearer")
+                    //JWT = Json Web Token
                     .AddJwtBearer("Bearer", options =>
                                             {
                                                 options.Authority = "https://localhost:5001";
@@ -52,8 +54,10 @@ namespace Api
 
             app.UseRouting();
 
+            //Add o middleware ao pipeline do core para autenticação  seja executada automaticamente a cada chamada da API
             app.UseAuthentication();
 
+            //Aciona o middleware de autorização pra garantir que o endpoint não seja acessado por anônimos
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
