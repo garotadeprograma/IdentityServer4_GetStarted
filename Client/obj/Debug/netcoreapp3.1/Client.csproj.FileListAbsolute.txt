@@ -12,3 +12,6 @@ C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\obj\Debug\netcoreap
 C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\obj\Debug\netcoreapp3.1\Client.dll
 C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\obj\Debug\netcoreapp3.1\Client.pdb
 C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\obj\Debug\netcoreapp3.1\Client.genruntimeconfig.cache
+C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos_Estudos\Jornada C# - Gama\Identity_Server\Client\obj\Debug\netcoreapp3.1\Client.csproj.CopyComplete
